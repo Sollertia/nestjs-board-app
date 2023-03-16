@@ -1,0 +1,414 @@
+GET http://localhost:3000/board/5
+Accept: application/json
+
+<> 2023-03-17T072701.200.json
+
+###
+
+GET http://localhost:3000/board/5
+Accept: application/json
+
+<> 2023-03-17T072700.200.json
+
+###
+
+PATCH http://localhost:3000/board/5/status
+Content-Type: application/json
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T072656.200.json
+
+###
+
+GET http://localhost:3000/board/5
+Accept: application/json
+
+<> 2023-03-17T072653.200.json
+
+###
+
+DELETE http://localhost:3000/board/3
+
+<> 2023-03-17T072646.404.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T072640.200.json
+
+###
+
+GET http://localhost:3000/board/5
+Accept: application/json
+
+<> 2023-03-17T072638.200.json
+
+###
+
+DELETE http://localhost:3000/board/3
+
+###
+
+GET http://localhost:3000/board/5
+Accept: application/json
+
+<> 2023-03-17T072631.200.json
+
+###
+
+GET http://localhost:3000/board/get?id=5
+Accept: application/json
+
+<> 2023-03-17T072627.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T072624.200.json
+
+###
+
+GET http://localhost:3000/board/get?id=5
+Accept: application/json
+
+<> 2023-03-17T072620.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T072608.200.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+
+{
+  "title": "nestjs board5",
+  "description": "nestjs 게시판 만들기5"
+}
+
+<> 2023-03-17T072606.201.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+
+{
+  "title": "nestjs board5",
+  "description": "nestjs 게시판 만들기5"
+}
+
+<> 2023-03-17T072605.201.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T072600.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T072538.200.json
+
+###
+
+GET http://localhost:3000/board/get?id=2
+Accept: application/json
+
+<> 2023-03-17T072537.200.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+
+{
+  "title": "nestjs board4",
+  "description": "nestjs 게시판 만들기4"
+}
+
+<> 2023-03-17T072535.201.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T072519.200.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+
+{
+  "title": "nestjs board2",
+  "description": "nestjs 게시판 만들기2"
+}
+
+<> 2023-03-17T072514.201.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+
+{
+  "title": "nestjs board1",
+  "description": "nestjs 게시판 만들기1"
+}
+
+<> 2023-03-17T072505.201.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T072003.200.json
+
+###
+
+PATCH http://localhost:3000/board/3/status
+Content-Type: application/json
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T071959.200.json
+
+###
+
+PATCH http://localhost:3000/board/2/status
+Content-Type: application/json
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T071952.200.json
+
+###
+
+PATCH http://localhost:3000/board/2/status
+Content-Type: application/json
+
+{
+  "status": "d"
+}
+
+<> 2023-03-17T071943.400.json
+
+###
+
+PATCH http://localhost:3000/board/2/status
+Content-Type: application/json
+
+{
+  "status": "PRIVA"
+}
+
+<> 2023-03-17T071935.400.json
+
+###
+
+PATCH http://localhost:3000/board/2/status
+Content-Type: application/json
+
+{
+  "status": "PRIVAT"
+}
+
+<> 2023-03-17T071922.400.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T071917.200.json
+
+###
+
+PATCH http://localhost:3000/board/2/status
+Content-Type: application/json
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T071912.200.json
+
+###
+
+DELETE http://localhost:3000/board/1
+
+<> 2023-03-17T071905.404.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T071857.200.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+
+{
+  "title": "nestjs board3",
+  "description": "nestjs 게시판 만들기3"
+}
+
+<> 2023-03-17T071855.201.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T071847.200.json
+
+###
+
+GET http://localhost:3000/board/2
+Accept: application/json
+
+<> 2023-03-17T071845.200.json
+
+###
+
+DELETE http://localhost:3000/board/1
+
+###
+
+GET http://localhost:3000/board/2
+Accept: application/json
+
+<> 2023-03-17T071839.200.json
+
+###
+
+GET http://localhost:3000/board/2
+Accept: application/json
+
+<> 2023-03-17T071834.200.json
+
+###
+
+GET http://localhost:3000/board/get?id=2
+Accept: application/json
+
+<> 2023-03-17T071831.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T071829.200.json
+
+###
+
+GET http://localhost:3000/board/get?id=2
+Accept: application/json
+
+<> 2023-03-17T071823.200.json
+
+###
+
+GET http://localhost:3000/board/get?id=2
+Accept: application/json
+
+<> 2023-03-17T071805.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T071803.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T071756.200.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+
+{
+  "title": "nestjs board2",
+  "description": "nestjs 게시판 만들기2"
+}
+
+<> 2023-03-17T071753.201.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T071727.200.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+
+{
+  "title": "nestjs board",
+  "description": "nestjs 게시판 만들기"
+}
+
+<> 2023-03-17T071719.201.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T055949.200.json
+
+###
+
+PATCH http://localhost:3000/board/645da020-c43d-11ed-ad90-451cc8fd9bf1/status
+Content-Type: application/json
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T055945.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T055938.200.json
+
+###
+

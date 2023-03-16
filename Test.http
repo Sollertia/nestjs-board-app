@@ -2,8 +2,8 @@ POST http://localhost:3000/board/create
 Content-Type: application/json
 
 {
-  "title": "nestjs board",
-  "description": "nestjs 게시판 만들기"
+  "title": "nestjs board5",
+  "description": "nestjs 게시판 만들기5"
 }
 
 ###
@@ -11,18 +11,18 @@ GET http://localhost:3000/board/get-all
 Accept: application/json
 
 ###
-GET http://localhost:3000/board/get?id=69ec5ae0-c43d-11ed-ad90-451cc8fd9bf1
+GET http://localhost:3000/board/get?id=5
 Accept: application/json
 
 ###
-GET http://localhost:3000/board/69ec5ae0-c43d-11ed-ad90-451cc8fd9bf1
+GET http://localhost:3000/board/5
 Accept: application/json
 
 ###
-DELETE http://localhost:3000/board/69ec5ae0-c43d-11ed-ad90-451cc8fd9bf1
+DELETE http://localhost:3000/board/3
 
 ###
-PATCH http://localhost:3000/board/645da020-c43d-11ed-ad90-451cc8fd9bf1/status
+PATCH http://localhost:3000/board/5/status
 Content-Type: application/json
 
 {
