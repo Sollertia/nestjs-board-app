@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Board, BoardStatus } from './board.model';
 import { v1 as uuid } from 'uuid';
+import { BoardReqDto } from './dto/board.req.dto';
 
 @Injectable()
 export class BoardService {
@@ -10,7 +11,9 @@ export class BoardService {
     return this.boards;
   }
 
-  createBoard(title: string, description: string): Board {
+  createBoard(reqDto: BoardReqDto): Board {
+    const { title, description } = reqDto;
+
     const board = {
       id: uuid(),
       title,
