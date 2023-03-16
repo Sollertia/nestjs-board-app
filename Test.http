@@ -11,3 +11,11 @@ GET http://localhost:3000/board/get-all
 Accept: application/json
 
 ###
+GET http://localhost:3000/board/get?id=15b9f000-c423-11ed-8d82-b79c3863d709
+Accept: application/json
+
+###
+GET http://localhost:3000/board/15b9f000-c423-11ed-8d82-b79c3863d709
+Accept: application/json
+
+###
