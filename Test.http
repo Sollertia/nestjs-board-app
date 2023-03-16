@@ -22,7 +22,7 @@ Accept: application/json
 DELETE http://localhost:3000/board/da6bf100-c423-11ed-9a13-2d0a726045b6
 
 ###
-PATCH http://localhost:3000/board/27550230-c425-11ed-ab82-9b29b3958c51/status
+PATCH http://localhost:3000/board/bef58ed0-c438-11ed-8e37-796d4754ace9/status
 Content-Type: application/json
 
 {
