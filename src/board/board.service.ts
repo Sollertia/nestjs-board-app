@@ -1,45 +1,35 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { BoardReqDto } from './dto/board.req.dto';
 import { Board } from './board.entity';
 import { BoardStatus } from './board-status.enum';
 import { BoardRepository } from './board.repository';
+import { User } from '../auth/user.entity';
 
 @Injectable()
 export class BoardService {
   constructor(private boardRepository: BoardRepository) {}
 
-  async getBoards(): Promise<Board[]> {
-    return this.boardRepository.find();
+  getBoards(user: User): Promise<Board[]> {
+    return this.boardRepository.getBoards(user);
   }
 
-  createBoard(reqDto: BoardReqDto): Promise<Board> {
-    return this.boardRepository.createBoard(reqDto);
+  createBoard(reqDto: BoardReqDto, user: User): Promise<Board> {
+    return this.boardRepository.createBoard(reqDto, user);
   }
 
-  async getBoardById(id: number): Promise<Board> {
-    const findBoard = await this.boardRepository.findOne({ where: { id } });
-
-    if (!findBoard) {
-      throw new NotFoundException(`해당하는 ${id} 게시글을 찾을 수 없습니다.`);
-    }
-
-    return findBoard;
+  getBoardById(id: number): Promise<Board> {
+    return this.boardRepository.getBoardById(id);
   }
 
-  async deleteBoardById(id: number): Promise<void> {
-    const result = await this.boardRepository.delete(id);
-
-    if (result.affected === 0) {
-      throw new NotFoundException(`해당하는 ${id} 게시글을 찾을 수 없습니다.`);
-    }
+  deleteBoardById(id: number, user: User): Promise<void> {
+    return this.boardRepository.deleteBoardById(id, user);
   }
 
-  async updateBoardStatus(id: number, status: BoardStatus): Promise<Board> {
-    const board = await this.getBoardById(id);
-
-    board.status = status;
-    await this.boardRepository.save(board);
-
-    return board;
+  updateBoardStatus(
+    id: number,
+    status: BoardStatus,
+    user: User,
+  ): Promise<Board> {
+    return this.boardRepository.updateBoardStatus(id, status, user);
   }
 }

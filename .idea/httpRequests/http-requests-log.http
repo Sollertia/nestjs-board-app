@@ -1,3 +1,330 @@
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T192220.200.json
+
+###
+
+PATCH http://localhost:3000/board/15/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T192216.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T192213.200.json
+
+###
+
+PATCH http://localhost:3000/board/16/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T192207.404.json
+
+###
+
+DELETE http://localhost:3000/board/14
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T192204.404.json
+
+###
+
+GET http://localhost:3000/board/5
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T192200.200.json
+
+###
+
+GET http://localhost:3000/board/5
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T192101.200.json
+
+###
+
+GET http://localhost:3000/board/get?id=5
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T192057.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T192052.200.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "title": "nestjs board",
+  "description": "nestjs 게시판 만들기"
+}
+
+<> 2023-03-17T192049.201.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T192044.200.json
+
+###
+
+DELETE http://localhost:3000/board/14
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+###
+
+DELETE http://localhost:3000/board/13
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T192034.404.json
+
+###
+
+PATCH http://localhost:3000/board/16/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T192032.404.json
+
+###
+
+PATCH http://localhost:3000/board/16/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T191400.404.json
+
+###
+
+DELETE http://localhost:3000/board/13
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T191357.404.json
+
+###
+
+PATCH http://localhost:3000/board/16/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T191214.404.json
+
+###
+
+PATCH http://localhost:3000/board/16/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T191205.404.json
+
+###
+
+PATCH http://localhost:3000/board/16/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T191202.404.json
+
+###
+
+PATCH http://localhost:3000/board/16/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T190810.404.json
+
+###
+
+PATCH http://localhost:3000/board/14/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T190756.200.json
+
+###
+
+PATCH http://localhost:3000/board/16/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T190726.404.json
+
+###
+
+PATCH http://localhost:3000/board/16/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T190701.404.json
+
+###
+
+PATCH http://localhost:3000/board/14/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T190621.200.json
+
+###
+
+PATCH http://localhost:3000/board/14/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T190536.200.json
+
+###
+
+DELETE http://localhost:3000/board/13
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+###
+
+DELETE http://localhost:3000/board/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T190458.404.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "title": "nestjs board",
+  "description": "nestjs 게시판 만들기"
+}
+
+<> 2023-03-17T190449.201.json
+
+###
+
+PATCH http://localhost:3000/board/13/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T190333.200.json
+
+###
+
+DELETE http://localhost:3000/board/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T190330.404.json
+
+###
+
+DELETE http://localhost:3000/board/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T190328.404.json
+
+###
+
+PATCH http://localhost:3000/board/13/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T190157.200.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "title": "nestjs board",
+  "description": "nestjs 게시판 만들기"
+}
+
+<> 2023-03-17T190147.201.json
+
+###
+
 PATCH http://localhost:3000/board/5/status
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
@@ -6,7 +333,26 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvY
   "status": "PRIVATE"
 }
 
-<> 2023-03-17T123507.200.json
+<> 2023-03-17T190110.200.json
+
+###
+
+DELETE http://localhost:3000/board/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T185849.404.json
+
+###
+
+DELETE http://localhost:3000/board/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+###
+
+DELETE http://localhost:3000/board/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T185449.500.json
 
 ###
 
@@ -14,11 +360,19 @@ GET http://localhost:3000/board/get-all
 Accept: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
 
-<> 2023-03-17T123457.200.json
+<> 2023-03-17T185437.200.json
 
 ###
 
-DELETE http://localhost:3000/board/4
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T131010.200.json
+
+###
+
+DELETE http://localhost:3000/board/10
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
 
 ###
@@ -27,7 +381,33 @@ GET http://localhost:3000/board/get-all
 Accept: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
 
-<> 2023-03-17T123446.200.json
+<> 2023-03-17T130821.200.json
+
+###
+
+DELETE http://localhost:3000/board/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T130803.200.json
+
+###
+
+DELETE http://localhost:3000/board/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T130554.200.json
 
 ###
 
@@ -36,413 +416,48 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
 
 {
-  "title": "nestjs board5",
-  "description": "nestjs 게시판 만들기5"
+  "title": "nestjs board2",
+  "description": "nestjs 게시판 만들기2"
 }
 
-<> 2023-03-17T123435.201.json
+<> 2023-03-17T130546.201.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T130530.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T125726.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T125520.200.json
 
 ###
 
 POST http://localhost:3000/board/create
 Content-Type: application/json
-
-{
-  "title": "nestjs board5",
-  "description": "nestjs 게시판 만들기5"
-}
-
-<> 2023-03-17T123430.401.json
-
-###
-
-GET http://localhost:3000/board/5
-Accept: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
 
-<> 2023-03-17T123423.200.json
-
-###
-
-GET http://localhost:3000/board/get?id=5
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
-
-<> 2023-03-17T123420.200.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
-
-<> 2023-03-17T123407.200.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T123349.401.json
-
-###
-
-GET http://localhost:3000/auth/auth_test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
-
-###
-
-GET http://localhost:3000/auth/auth_test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
-
-###
-
-GET http://localhost:3000/auth/auth_test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
-
-###
-
-GET http://localhost:3000/auth/auth_test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
-
-###
-
-GET http://localhost:3000/auth/auth_test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
-
-###
-
-GET http://localhost:3000/auth/test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
-
-###
-
-POST http://localhost:3000/auth/signIn
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjA3NTEsImV4cCI6MTY3OTEwNzE1MX0.XWHq-mbTaJJW5O0kED0nWj-EDhvMrRBNSIzRip0_bQw
-
 {
-  "username": "robbie3",
-  "password": "1234563"
+  "title": "nestjs board2",
+  "description": "nestjs 게시판 만들기2"
 }
 
-<> 2023-03-17T120049.201.json
-
-###
-
-POST http://localhost:3000/auth/signIn
-Content-Type: application/json
-
-{
-  "username": "robbie3",
-  "password": "1234563"
-}
-
-<> 2023-03-17T113911.201.json
-
-###
-
-POST http://localhost:3000/auth/signIn
-Content-Type: application/json
-
-{
-  "username": "robbie3",
-  "password": "1234563"
-}
-
-<> 2023-03-17T112430.201.html
-
-###
-
-POST http://localhost:3000/auth/signIn
-Content-Type: application/json
-
-{
-  "username": "robbie2",
-  "password": "1234563"
-}
-
-<> 2023-03-17T112422.201.html
-
-###
-
-POST http://localhost:3000/auth/signIn
-Content-Type: application/json
-
-{
-  "username": "robbie2",
-  "password": "1234"
-}
-
-<> 2023-03-17T112415.401.json
-
-###
-
-POST http://localhost:3000/auth/signIn
-Content-Type: application/json
-
-{
-  "username": "robbie2",
-  "password": "1234"
-}
-
-<> 2023-03-17T112410.401.json
-
-###
-
-POST http://localhost:3000/auth/signIn
-Content-Type: application/json
-
-{
-  "username": "robbie3",
-  "password": "1234"
-}
-
-<> 2023-03-17T112405.401.json
-
-###
-
-POST http://localhost:3000/auth/signIn
-Content-Type: application/json
-
-{
-  "username": "robbie3",
-  "password": "1234563"
-}
-
-<> 2023-03-17T112356.201.html
-
-###
-
-POST http://localhost:3000/auth/signIn
-Content-Type: application/json
-
-{
-  "username": "robbie3",
-  "password": "1234563"
-}
-
-<> 2023-03-17T112300.404.json
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "username": "robbie3",
-  "password": "1234563"
-}
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "username": "robbie2",
-  "password": "1234563"
-}
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "username": "robbie",
-  "password": "1234"
-}
-
-<> 2023-03-17T110559.409.json
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "username": "robbie",
-  "password": "1234"
-}
-
-<> 2023-03-17T110450.409.json
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "username": "1",
-  "password": "1"
-}
-
-<> 2023-03-17T105357.400.json
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "username": "robbie",
-  "password": "1234"
-}
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T104143.200.json
-
-###
-
-POST http://localhost:3000/auth/signup
-Content-Type: application/json
-
-{
-  "username": "robbie",
-  "password": "1234"
-}
-
-<> 2023-03-17T104050.500.json
-
-###
-
-GET http://localhost:3000/board/5
-Accept: application/json
-
-<> 2023-03-17T072701.200.json
-
-###
-
-GET http://localhost:3000/board/5
-Accept: application/json
-
-<> 2023-03-17T072700.200.json
-
-###
-
-PATCH http://localhost:3000/board/5/status
-Content-Type: application/json
-
-{
-  "status": "PRIVATE"
-}
-
-<> 2023-03-17T072656.200.json
-
-###
-
-GET http://localhost:3000/board/5
-Accept: application/json
-
-<> 2023-03-17T072653.200.json
-
-###
-
-DELETE http://localhost:3000/board/3
-
-<> 2023-03-17T072646.404.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T072640.200.json
-
-###
-
-GET http://localhost:3000/board/5
-Accept: application/json
-
-<> 2023-03-17T072638.200.json
-
-###
-
-DELETE http://localhost:3000/board/3
-
-###
-
-GET http://localhost:3000/board/5
-Accept: application/json
-
-<> 2023-03-17T072631.200.json
-
-###
-
-GET http://localhost:3000/board/get?id=5
-Accept: application/json
-
-<> 2023-03-17T072627.200.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T072624.200.json
-
-###
-
-GET http://localhost:3000/board/get?id=5
-Accept: application/json
-
-<> 2023-03-17T072620.200.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T072608.200.json
-
-###
-
-POST http://localhost:3000/board/create
-Content-Type: application/json
-
-{
-  "title": "nestjs board5",
-  "description": "nestjs 게시판 만들기5"
-}
-
-<> 2023-03-17T072606.201.json
-
-###
-
-POST http://localhost:3000/board/create
-Content-Type: application/json
-
-{
-  "title": "nestjs board5",
-  "description": "nestjs 게시판 만들기5"
-}
-
-<> 2023-03-17T072605.201.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T072600.200.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T072538.200.json
+<> 2023-03-17T124954.201.json
 
 ###
 
