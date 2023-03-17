@@ -18,3 +18,5 @@ pnpm i bcryptjs --save
 pnpm i @nestjs/jwt @nestjs/passport passport passport-jwt --save
 
 pnpm i @types/passport-jwt --save
+
+pnpm i config --save

@@ -42,8 +42,8 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-  "username": "robbie3",
-  "password": "1234563"
+  "username": "robbie78",
+  "password": "7777"
 }
 
 ###
@@ -51,8 +51,8 @@ POST http://localhost:3000/auth/signIn
 Content-Type: application/json
 
 {
-  "username": "robbie3",
-  "password": "1234563"
+  "username": "robbie78",
+  "password": "7777"
 }
 
 ###
@@ -61,8 +61,3 @@ Accept: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
 
 ###
-
-
-
-
-
