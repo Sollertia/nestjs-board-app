@@ -2,6 +2,26 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
+  "username": "robbie3",
+  "password": "1234563"
+}
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "robbie2",
+  "password": "1234563"
+}
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
   "username": "robbie",
   "password": "1234"
 }
@@ -404,20 +424,6 @@ GET http://localhost:3000/board/get?id=2
 Accept: application/json
 
 <> 2023-03-17T071805.200.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T071803.200.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T071756.200.json
 
 ###
 

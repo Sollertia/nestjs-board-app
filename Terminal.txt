@@ -12,3 +12,5 @@ nest g module auth
 nest g co auth --no-spec
 
 nest g service auth --no-spec
+
+pnpm i bcryptjs --save
