@@ -1,3 +1,40 @@
+GET http://localhost:3000/auth/auth_test
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+###
+
+GET http://localhost:3000/auth/test
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+###
+
+POST http://localhost:3000/auth/signIn
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjA3NTEsImV4cCI6MTY3OTEwNzE1MX0.XWHq-mbTaJJW5O0kED0nWj-EDhvMrRBNSIzRip0_bQw
+
+{
+  "username": "robbie3",
+  "password": "1234563"
+}
+
+<> 2023-03-17T120049.201.json
+
+###
+
+POST http://localhost:3000/auth/signIn
+Content-Type: application/json
+
+{
+  "username": "robbie3",
+  "password": "1234563"
+}
+
+<> 2023-03-17T113911.201.json
+
+###
+
 POST http://localhost:3000/auth/signIn
 Content-Type: application/json
 
@@ -429,39 +466,6 @@ Content-Type: application/json
 DELETE http://localhost:3000/board/1
 
 <> 2023-03-17T071905.404.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T071857.200.json
-
-###
-
-POST http://localhost:3000/board/create
-Content-Type: application/json
-
-{
-  "title": "nestjs board3",
-  "description": "nestjs 게시판 만들기3"
-}
-
-<> 2023-03-17T071855.201.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T071847.200.json
-
-###
-
-GET http://localhost:3000/board/2
-Accept: application/json
-
-<> 2023-03-17T071845.200.json
 
 ###
 

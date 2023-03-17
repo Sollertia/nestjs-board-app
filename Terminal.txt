@@ -14,3 +14,7 @@ nest g co auth --no-spec
 nest g service auth --no-spec
 
 pnpm i bcryptjs --save
+
+pnpm i @nestjs/jwt @nestjs/passport passport passport-jwt --save
+
+pnpm i @types/passport-jwt --save
