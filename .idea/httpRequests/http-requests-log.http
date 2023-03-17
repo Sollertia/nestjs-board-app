@@ -1,3 +1,32 @@
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "robbie",
+  "password": "1234"
+}
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T104143.200.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "robbie",
+  "password": "1234"
+}
+
+<> 2023-03-17T104050.500.json
+
+###
+
 GET http://localhost:3000/board/5
 Accept: application/json
 
@@ -384,31 +413,6 @@ Content-Type: application/json
 }
 
 <> 2023-03-17T071719.201.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T055949.200.json
-
-###
-
-PATCH http://localhost:3000/board/645da020-c43d-11ed-ad90-451cc8fd9bf1/status
-Content-Type: application/json
-
-{
-  "status": "PRIVATE"
-}
-
-<> 2023-03-17T055945.200.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T055938.200.json
 
 ###
 

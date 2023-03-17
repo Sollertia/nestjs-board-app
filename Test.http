@@ -1,3 +1,4 @@
+# Board
 POST http://localhost:3000/board/create
 Content-Type: application/json
 
@@ -29,3 +30,21 @@ Content-Type: application/json
   "status": "PRIVATE"
 }
 ###
+
+# User
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "robbie",
+  "password": "1234"
+}
+
+###
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+nest g controller board --no-spec
+nest g service board --no-spec
+
+pnpm i uuid --save
+
+pnpm i class-validator class-transformer --save
+
+pnpm i pg typeorm @nestjs/typeorm --save
+
+nest g module auth
+
+nest g co auth --no-spec
+
+nest g service auth --no-spec
