@@ -11,10 +11,14 @@ import { AuthCredentialDto } from './dto/auth-credential.dto';
 import { AuthGuard } from '@nestjs/passport';
 import { GetUser } from './get-user.decorator';
 import { User } from './user.entity';
+import { ConfigService } from '@nestjs/config';
 
 @Controller('auth')
 export class AuthController {
-  constructor(private authService: AuthService) {}
+  constructor(
+    private authService: AuthService,
+    private configService: ConfigService,
+  ) {}
 
   @Post('/signup')
   signup(
@@ -35,5 +39,13 @@ export class AuthController {
   authTest(@GetUser() user: User) {
     // 커스텀 데코레이터 사용
     console.log('user: ', user);
+  }
+
+  @Get('/config_test')
+  configTest() {
+    console.log(this.configService.get<string>('jwt.secret'));
+    console.log(this.configService.get<string>('jwt.expiresIn'));
+    console.log(this.configService.get<string>('synchronize'));
+    console.log(this.configService.get<string>('port'));
   }
 }

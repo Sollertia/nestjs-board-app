@@ -1,7 +1,7 @@
 # Board
 POST http://localhost:3000/board/create
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTc4IiwiaWF0IjoxNjc5MDYwNDg4LCJleHAiOjE2NzkxNDY4ODh9.qDv5Y4cHzj1ezhmLYVNllllXFdFzG_6AyqcGppGr4Nk
 
 {
   "title": "nestjs board",
@@ -11,26 +11,26 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvY
 ###
 GET http://localhost:3000/board/get-all
 Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTc4IiwiaWF0IjoxNjc5MDYwNDg4LCJleHAiOjE2NzkxNDY4ODh9.qDv5Y4cHzj1ezhmLYVNllllXFdFzG_6AyqcGppGr4Nk
 
 ###
 GET http://localhost:3000/board/get?id=5
 Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTc4IiwiaWF0IjoxNjc5MDYwNDg4LCJleHAiOjE2NzkxNDY4ODh9.qDv5Y4cHzj1ezhmLYVNllllXFdFzG_6AyqcGppGr4Nk
 
 ###
 GET http://localhost:3000/board/5
 Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTc4IiwiaWF0IjoxNjc5MDYwNDg4LCJleHAiOjE2NzkxNDY4ODh9.qDv5Y4cHzj1ezhmLYVNllllXFdFzG_6AyqcGppGr4Nk
 
 ###
-DELETE http://localhost:3000/board/14
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+DELETE http://localhost:3000/board/19
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTc4IiwiaWF0IjoxNjc5MDYwNDg4LCJleHAiOjE2NzkxNDY4ODh9.qDv5Y4cHzj1ezhmLYVNllllXFdFzG_6AyqcGppGr4Nk
 
 ###
-PATCH http://localhost:3000/board/15/status
+PATCH http://localhost:3000/board/21/status
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTc4IiwiaWF0IjoxNjc5MDYwNDg4LCJleHAiOjE2NzkxNDY4ODh9.qDv5Y4cHzj1ezhmLYVNllllXFdFzG_6AyqcGppGr4Nk
 
 {
   "status": "PRIVATE"
@@ -42,7 +42,7 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-  "username": "robbie78",
+  "username": "robbie79",
   "password": "7777"
 }
 
@@ -58,6 +58,15 @@ Content-Type: application/json
 ###
 GET http://localhost:3000/auth/auth_test
 Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTc4IiwiaWF0IjoxNjc5MDYyMTgzLCJleHAiOjE2NzkxNDg1ODN9.4P3kN114cEVIOxxhsq36rEb0LAdKiuC29Y8GC850ZhY
 
 ###
+
+#config
+GET http://localhost:3000/auth/config_test
+Accept: application/json
+
+###
+GET http://localhost:3000/board/test/config
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTc4IiwiaWF0IjoxNjc5MDYyMTgzLCJleHAiOjE2NzkxNDg1ODN9.4P3kN114cEVIOxxhsq36rEb0LAdKiuC29Y8GC850ZhY

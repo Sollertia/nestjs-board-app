@@ -4,4 +4,4 @@ db:
   password: '4351'
   synchronize: true
 jwt:
-  secret: 'robbie'
+  secret: 'development_robbie'

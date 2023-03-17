@@ -21,11 +21,15 @@ import { BoardStatus } from './board-status.enum';
 import { AuthGuard } from '@nestjs/passport';
 import { GetUser } from '../auth/get-user.decorator';
 import { User } from '../auth/user.entity';
+import { ConfigService } from '@nestjs/config';
 
 @Controller('board')
 @UseGuards(AuthGuard())
 export class BoardController {
-  constructor(private boardService: BoardService) {}
+  constructor(
+    private boardService: BoardService,
+    private configService: ConfigService,
+  ) {}
   private logger = new Logger('BoardController');
 
   @Get('/get-all')
@@ -73,5 +77,13 @@ export class BoardController {
     @GetUser() user: User,
   ): Promise<Board> {
     return this.boardService.updateBoardStatus(id, status, user);
+  }
+
+  @Get('/test/config')
+  configTest() {
+    console.log(this.configService.get<string>('jwt.secret'));
+    console.log(this.configService.get<string>('jwt.expiresIn'));
+    console.log(this.configService.get<string>('synchronize'));
+    console.log(this.configService.get<string>('port'));
   }
 }

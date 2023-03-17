@@ -3,10 +3,11 @@ import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 import { UserRepository } from './user.repository';
 import { TypeOrmExModule } from '../orm/typeorm.ex.module';
-import { JwtModule } from '@nestjs/jwt';
 import { PassportModule } from '@nestjs/passport';
-import { JwtStrategy } from './jwt.strategy';
+import { ConfigModule } from '@nestjs/config';
+import { JwtModule } from '@nestjs/jwt';
 import * as config from 'config';
+import { JwtStrategy } from './jwt.strategy';
 
 const jwtConfig = config.get('jwt');
 
@@ -20,6 +21,7 @@ const jwtConfig = config.get('jwt');
       },
     }),
     TypeOrmExModule.forCustomRepository([UserRepository]),
+    ConfigModule,
   ],
   controllers: [AuthController],
   providers: [AuthService, JwtStrategy], // JwtStrategy 등록
