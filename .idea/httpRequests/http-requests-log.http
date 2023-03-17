@@ -6,6 +6,42 @@ Content-Type: application/json
   "password": "1234"
 }
 
+<> 2023-03-17T110559.409.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "robbie",
+  "password": "1234"
+}
+
+<> 2023-03-17T110450.409.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "1",
+  "password": "1"
+}
+
+<> 2023-03-17T105357.400.json
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "robbie",
+  "password": "1234"
+}
+
 ###
 
 GET http://localhost:3000/board/get-all
@@ -382,37 +418,6 @@ GET http://localhost:3000/board/get-all
 Accept: application/json
 
 <> 2023-03-17T071756.200.json
-
-###
-
-POST http://localhost:3000/board/create
-Content-Type: application/json
-
-{
-  "title": "nestjs board2",
-  "description": "nestjs 게시판 만들기2"
-}
-
-<> 2023-03-17T071753.201.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T071727.200.json
-
-###
-
-POST http://localhost:3000/board/create
-Content-Type: application/json
-
-{
-  "title": "nestjs board",
-  "description": "nestjs 게시판 만들기"
-}
-
-<> 2023-03-17T071719.201.json
 
 ###
 
