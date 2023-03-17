@@ -3,7 +3,6 @@ import {
   Controller,
   Get,
   Post,
-  Req,
   UseGuards,
   ValidationPipe,
 } from '@nestjs/common';
@@ -37,5 +36,4 @@ export class AuthController {
     // 커스텀 데코레이터 사용
     console.log('user: ', user);
   }
-  기;
 }

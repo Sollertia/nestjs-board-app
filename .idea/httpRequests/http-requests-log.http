@@ -1,3 +1,92 @@
+PATCH http://localhost:3000/board/5/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "status": "PRIVATE"
+}
+
+<> 2023-03-17T123507.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T123457.200.json
+
+###
+
+DELETE http://localhost:3000/board/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T123446.200.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+{
+  "title": "nestjs board5",
+  "description": "nestjs 게시판 만들기5"
+}
+
+<> 2023-03-17T123435.201.json
+
+###
+
+POST http://localhost:3000/board/create
+Content-Type: application/json
+
+{
+  "title": "nestjs board5",
+  "description": "nestjs 게시판 만들기5"
+}
+
+<> 2023-03-17T123430.401.json
+
+###
+
+GET http://localhost:3000/board/5
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T123423.200.json
+
+###
+
+GET http://localhost:3000/board/get?id=5
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T123420.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
+
+<> 2023-03-17T123407.200.json
+
+###
+
+GET http://localhost:3000/board/get-all
+Accept: application/json
+
+<> 2023-03-17T123349.401.json
+
+###
+
 GET http://localhost:3000/auth/auth_test
 Accept: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYmJpZTMiLCJpYXQiOjE2NzkwMjIwNDksImV4cCI6MTY3OTEwODQ0OX0.RHeH1AIhrpOrz9ID7qXThi-lUfXGjV4_7GPnkU6MK3Y
@@ -354,107 +443,6 @@ GET http://localhost:3000/board/get-all
 Accept: application/json
 
 <> 2023-03-17T072538.200.json
-
-###
-
-GET http://localhost:3000/board/get?id=2
-Accept: application/json
-
-<> 2023-03-17T072537.200.json
-
-###
-
-POST http://localhost:3000/board/create
-Content-Type: application/json
-
-{
-  "title": "nestjs board4",
-  "description": "nestjs 게시판 만들기4"
-}
-
-<> 2023-03-17T072535.201.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T072519.200.json
-
-###
-
-POST http://localhost:3000/board/create
-Content-Type: application/json
-
-{
-  "title": "nestjs board2",
-  "description": "nestjs 게시판 만들기2"
-}
-
-<> 2023-03-17T072514.201.json
-
-###
-
-POST http://localhost:3000/board/create
-Content-Type: application/json
-
-{
-  "title": "nestjs board1",
-  "description": "nestjs 게시판 만들기1"
-}
-
-<> 2023-03-17T072505.201.json
-
-###
-
-GET http://localhost:3000/board/get-all
-Accept: application/json
-
-<> 2023-03-17T072003.200.json
-
-###
-
-PATCH http://localhost:3000/board/3/status
-Content-Type: application/json
-
-{
-  "status": "PRIVATE"
-}
-
-<> 2023-03-17T071959.200.json
-
-###
-
-PATCH http://localhost:3000/board/2/status
-Content-Type: application/json
-
-{
-  "status": "PRIVATE"
-}
-
-<> 2023-03-17T071952.200.json
-
-###
-
-PATCH http://localhost:3000/board/2/status
-Content-Type: application/json
-
-{
-  "status": "d"
-}
-
-<> 2023-03-17T071943.400.json
-
-###
-
-PATCH http://localhost:3000/board/2/status
-Content-Type: application/json
-
-{
-  "status": "PRIVA"
-}
-
-<> 2023-03-17T071935.400.json
 
 ###
 
