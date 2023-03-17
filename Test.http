@@ -41,7 +41,15 @@ Content-Type: application/json
 }
 
 ###
+POST http://localhost:3000/auth/signIn
+Content-Type: application/json
 
+{
+  "username": "robbie3",
+  "password": "1234563"
+}
+
+###
 
 
 
